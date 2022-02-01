@@ -2,3 +2,4 @@ body {background-color: beige; color: darkblue;}
 h1 {color: darkred;}
 h2 {color: orange;}
 form {background-color: darkblue; color: beige;}
+.container {max-width: 777px; margin: auto; background-color: darkgoldenrod;text-align: center;}
