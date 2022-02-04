@@ -1,25 +1,27 @@
-body {
-	background-color: beige;
-	color: darkblue;
-	margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Russo+One&family=Sacramento&display=swap');
 
-h1 {
-	color: darkred;
-}
+body	{color: lightgoldenrodyellow; background-color: #0a1826; max-width: 900px; margin: auto; text-align: center;
+		font-family: 'Public sans'; font-size: 20px;}
+h1		{font-family: 'Sacramento'; color: gold; font-size: 39px;}
+h3{font-family: 'Russo One'; font-weight: lighter;color: #c6f28f; font-size: 22px;}
 
-h2 {
-	color: orange;
-}
 
 form {
 	background-color: darkblue;
 	color: beige;
 }
-
-.container {
+.container{background-color: #14376b;
 	max-width: 777px;
 	margin: auto;
-	background-color: darkgoldenrod;
 	text-align: center;
+	margin-top: 33px;
+	padding-top: 33px;
+	padding-bottom: 22px;
 }
+ul {list-style-type: none;
+}
+ul li{display:  inline;}
+ul li a{text-decoration: none;
+color: beige;
+margin-right: 11px;}
+ul li a:hover{text-decoration: underline;}
