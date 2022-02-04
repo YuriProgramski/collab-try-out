@@ -50,6 +50,7 @@ ul {
 .main-nav li a:hover {
 	color: aquamarine;
 }
+
 footer li {
 	display: inline;
 }
@@ -64,4 +65,24 @@ footer li a
 
 footer li a:hover {
 	color: aquamarine;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
+.main-section,
+.sub-section {
+	margin: 0 2rem;
+}
+
+.main-section-title {
+	margin: 0;
+	padding-top: 5rem;
+}
+
+.sub-section {
+	padding-bottom: 3rem;
 }
