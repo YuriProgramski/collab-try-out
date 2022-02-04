@@ -13,8 +13,11 @@ h3
 }
 form {
 	background-color: darkblue;
-	color: beige;
+	
+	padding: 22px;
+	color: gold;
 }
+form input {margin-left: 7px;}
 .container{background-color: #14376b; max-width: 720px; margin: auto;}
 
 
