@@ -1,32 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Russo+One&family=Sacramento&display=swap');
 
-body	{color: lightgoldenrodyellow; background-color: #0a1826; max-width: 900px; margin: auto; text-align: center;
-		font-family: 'Public sans'; font-size: 20px;}
-h1		{font-family: 'Sacramento'; color: gold; font-size: 59px;} h2{font-family: 'Russo One'; font-weight: lighter;color: #c6f28f; font-size: 30px;}
-h3
-{
+body {
+	color: lightgoldenrodyellow;
+	background-color: #0a1826;
+	max-width: 900px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Public sans';
+	font-size: 20px;
+}
+h1 {
+	font-family: 'Sacramento';
+	color: gold;
+	font-size: 59px;
+}
+h2 {
+	font-family: 'Russo One';
+	font-weight: lighter;
+	color: #c6f28f;
+	font-size: 30px;
+}
+h3 {
 	font-size: 28px;
-	font-family: "Russo One", sans-serif;
+	font-family: 'Russo One', sans-serif;
 	color: #c6f28f;
 	font-weight: 300;
 	letter-spacing: 1.2px;
 }
 form {
 	background-color: darkblue;
-	
+
 	padding: 22px;
 	color: gold;
 }
-form input {margin-left: 7px;}
-.container{background-color: #14376b; max-width: 720px; margin: auto;}
-
+form input {
+	margin-left: 7px;
+}
+.container {
+	background-color: #14376b;
+	max-width: 720px;
+	margin: auto;
+}
 
 .main-header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	background-color: white;
 }
-#main {background-color: white;}
+
 .main-nav {
 	display: flex;
 }
@@ -44,7 +66,6 @@ ul {
 	text-decoration: none;
 	margin: 0 2rem;
 	color: blueviolet;
-	beige;
 }
 
 .main-nav li a:hover {
@@ -55,12 +76,10 @@ footer li {
 	display: inline;
 }
 
-footer li a
-{
+footer li a {
 	text-decoration: none;
 	margin: 0 2rem;
 	color: blueviolet;
-	beige;
 }
 
 footer li a:hover {
