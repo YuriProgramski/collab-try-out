@@ -23,3 +23,32 @@ form {
 	background-color: darkgoldenrod;
 	text-align: center;
 }
+
+.main-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-nav {
+	display: flex;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.main-nav li {
+	display: inline;
+}
+
+.main-nav li a,
+#logo a {
+	text-decoration: none;
+	margin: 0 2rem;
+	color: blueviolet;
+}
+
+.main-nav li a:hover {
+	color: aquamarine;
+}
